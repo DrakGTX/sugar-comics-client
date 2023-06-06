@@ -1,0 +1,11 @@
+.wrapper {
+    @apply rounded aspect-[10/16] bg-dark relative;
+
+    .poster {
+        @apply rounded h-full w-full object-cover flex justify-center items-center;
+    }
+
+    .back {
+        @apply opacity-0 hover:opacity-100 transition-opacity;
+    }
+}

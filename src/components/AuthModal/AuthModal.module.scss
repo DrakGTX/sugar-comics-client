@@ -1,0 +1,19 @@
+.wrapper {
+    @apply justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none;
+
+    .subWrapper {
+        @apply relative w-auto;
+
+        .panel {
+            @apply border-0 rounded shadow-lg flex flex-col bg-light p-8;
+
+            .close {
+                @apply absolute top-1 right-1 transition-transform hover:scale-110;
+
+                .closeIcon {
+                    @apply text-xl text-dark flex;
+                }
+            }
+        }
+    }
+}

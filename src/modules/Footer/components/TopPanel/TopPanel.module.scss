@@ -1,0 +1,7 @@
+.wrapper {
+    @apply bg-light opacity-95 flex items-center justify-center;
+
+    div {
+        @apply my-5 mx-2.5;
+    }
+}

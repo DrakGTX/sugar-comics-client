@@ -1,0 +1,23 @@
+.wrapper {
+    @apply flex items-center justify-center h-full;
+
+    .info {
+        @apply flex flex-col items-start;
+
+        .infoNumber {
+            @apply font-nunito text-6xl mb-3 font-extrabold;
+        }
+
+        .infoErrorText {
+            @apply font-nunito text-3xl font-semibold mb-2;
+        }
+
+        .infoHome {
+            @apply font-nunito text-xl mb-4;
+        }
+
+        .btnHome {
+            @apply rounded font-nunito font-semibold text-light bg-accent p-2 cursor-pointer transition-colors hover:bg-violet-700 active:scale-95;
+        }
+    }
+}

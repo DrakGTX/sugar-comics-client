@@ -1,0 +1,11 @@
+.wrapper {
+    @apply flex flex-col;
+
+    .links {
+        @apply flex items-center justify-between my-3;
+
+        .linkItem {
+            @apply font-nunito font-semibold text-accent text-sm transition;
+        }
+    }
+}

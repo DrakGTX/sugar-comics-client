@@ -1,0 +1,7 @@
+.wrapper {
+    @apply flex justify-center mt-20 mb-20;
+
+    .panel {
+        @apply bg-light p-4 w-10/12 rounded h-full sm:p-6 lg:p-8 xl:p-10 2xl:w-9/12 xl:w-10/12;
+    }
+}

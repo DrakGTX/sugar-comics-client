@@ -1,0 +1,11 @@
+.orSection {
+    @apply flex justify-center items-center mt-3 mb-3;
+
+    .hrHorizontal {
+        @apply border-none w-full h-px bg-dark;
+    }
+
+    .or {
+        @apply font-nunito font-semibold text-dark text-base px-2;
+    }
+}

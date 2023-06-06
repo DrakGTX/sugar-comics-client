@@ -1,0 +1,7 @@
+.wrapper {
+    @apply border-none transition text-xs text-violet-400 sm:text-sm 2xl:font-semibold;
+
+    .underline {
+        @apply block h-0.5 bg-violet-400 sm:max-w-0 sm:transition-all;
+    }
+}

@@ -1,0 +1,3 @@
+.button {
+    @apply outline outline-1 outline-dark rounded px-3 py-2 flex justify-center items-center font-semibold font-nunito text-dark bg-stroke transition-colors hover:text-accent active:outline-none active:ring ring-accent;
+}

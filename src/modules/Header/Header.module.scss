@@ -1,0 +1,19 @@
+.wrapper {
+    @apply flex items-center px-8 bg-light bg-opacity-95 drop-shadow-lg;
+
+    .thirdPart {
+        @apply w-1/3;
+
+        .leftItem {
+            @apply flex items-start mb-2;
+        }
+
+        .centralItem {
+            @apply flex justify-center;
+        }
+
+        .rightItem {
+            @apply flex justify-end;
+        }
+    }
+}

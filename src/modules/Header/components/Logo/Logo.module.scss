@@ -1,0 +1,11 @@
+.wrapper {
+    @apply flex flex-col items-center relative h-16 cursor-pointer;
+}
+
+.top {
+    @apply font-remachine text-5xl text-accent;
+}
+
+.bottom {
+    @apply font-circus text-sm text-accent absolute top-11;
+}

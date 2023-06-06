@@ -1,0 +1,17 @@
+.wrapper {
+    .submitBtnWrapper {
+        @apply mt-5 flex justify-center;
+    }
+
+    .rewardsSection {
+        @apply text-xl font-bold text-dark mt-10 mb-5;
+    }
+
+    .horizontalLine {
+        @apply border-none w-full h-px bg-dark;
+    }
+
+    .infoSection {
+        @apply text-xl font-bold text-dark mb-5;
+    }
+}

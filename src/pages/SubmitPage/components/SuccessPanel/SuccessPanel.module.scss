@@ -1,0 +1,7 @@
+.wrapper {
+    @apply flex justify-center items-center mt-3;
+
+    .panel {
+        @apply bg-green-300 px-4 py-2 rounded outline outline-2 outline-green-500 font-semibold font-nunito text-base;
+    }
+}

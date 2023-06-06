@@ -1,0 +1,31 @@
+.link {
+    @apply absolute inset-0 cursor-pointer text-light font-nunito rounded bg-dark p-3 md:p-5;
+
+    .wrapper {
+        @apply flex flex-col justify-between h-full;
+
+        .name {
+            @apply font-semibold line-clamp-2;
+        }
+
+        .author {
+            @apply font-extralight text-sm line-clamp-2 my-2;
+        }
+
+        .description {
+            @apply text-xs line-clamp-3 2xl:line-clamp-6 md:line-clamp-5 sm:line-clamp-3;
+        }
+
+        .progressBar {
+            @apply rounded-lg bg-accent border-violet-400 border-2;
+
+            .percentage {
+                @apply bg-violet-400 text-right pr-1 rounded-sm font-semibold text-mini 2xl:text-xs;
+            }
+        }
+
+        .btnWrapper {
+            @apply flex items-center justify-center;
+        }
+    }
+}

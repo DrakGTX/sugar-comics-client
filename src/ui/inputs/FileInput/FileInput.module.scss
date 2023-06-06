@@ -1,0 +1,15 @@
+.wrapper {
+    @apply flex flex-col;
+
+    .label {
+        @apply text-lg font-semibold font-nunito text-dark mb-1;
+    }
+
+    .fileInput {
+        @apply p-2 cursor-pointer rounded text-sm font-semibold font-nunito bg-stroke outline outline-2 outline-dark file:bg-accent file:border-none file:text-light file:text-base file:rounded file:mr-2 file:cursor-pointer file:py-1 file:px-2 file:hover:bg-violet-700 file:active:scale-95;
+    }
+
+    .info {
+        @apply text-base font-medium font-nunito text-dark mt-1;
+    }
+}

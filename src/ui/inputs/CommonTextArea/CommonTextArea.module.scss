@@ -1,0 +1,11 @@
+.wrapper {
+    @apply flex flex-col text-base font-semibold font-nunito text-dark;
+
+    .label {
+        @apply text-lg mb-1;
+    }
+
+    .textarea {
+        @apply p-3 resize-none rounded outline outline-1 outline-stroke focus:outline-none focus:ring ring-accent;
+    }
+}

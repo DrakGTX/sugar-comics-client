@@ -1,0 +1,19 @@
+.wrapper {
+    @apply flex flex-col text-base font-semibold font-nunito text-dark;
+
+    .label {
+        @apply text-lg mb-1;
+    }
+
+    .inputWrapper {
+        @apply relative flex w-full flex-wrap items-stretch;
+
+        .iconSpan {
+            @apply z-10 h-full leading-snug font-normal absolute text-center bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3;
+        }
+
+        .moneyInput {
+            @apply relative w-full pr-3 pl-10 py-3 rounded text-base font-nunito outline outline-1 outline-stroke focus:outline-none focus:ring ring-accent;
+        }
+    }
+}

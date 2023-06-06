@@ -1,0 +1,7 @@
+.wrapper {
+    @apply flex items-center;
+
+    .verticalLine {
+        @apply border-none w-px h-7 bg-accent;
+    }
+}
